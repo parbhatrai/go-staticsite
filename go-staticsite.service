@@ -1,0 +1,11 @@
+
+[Unit]
+Description=app HTTP Server
+
+[Service]
+User=prabrai11
+WorkingDirectory=/opt/go-staticsite/static
+ExecStart=/opt/go-staticsite/app
+
+[Install]
+WantedBy=multi-user.target
