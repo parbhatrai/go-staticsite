@@ -3,7 +3,7 @@
 Description=app HTTP Server
 
 [Service]
-User=prabrai11
+User=vagrant
 WorkingDirectory=/opt/go-staticsite/static
 ExecStart=/opt/go-staticsite/app
 
